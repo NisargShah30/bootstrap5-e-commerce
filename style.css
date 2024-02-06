@@ -1,0 +1,673 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.top-navbar{
+    width: 100%;
+    height: 7vh;
+    background-color: #a9a9a926;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.top-icons{
+    margin-left: 45px;
+}
+.top-icons i{
+    font-size: 20px;
+    color: #1c1c50;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.others-links{
+    margin-right: 33px;
+}
+.others-links i{
+    color: #1c1c50;
+    font-size: 20px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+#btn-login{
+    width: 100px;
+    border: 2px solid #1c1c50;
+    color: #1c1c50;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 5vh;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#btn-login a{
+    text-decoration: none;
+    color: #1c1c50;
+    transition: 0.5s ease;
+}
+#btn-login a:hover{
+    background-color: #1c1c50;
+    color: #fff;
+}
+#btn-login:hover{
+    background-color: #1c1c50;
+    color: #fff;
+}
+
+#btn-signup{
+    width: 100px;
+    border: 2px solid #1c1c50;
+    color: #0000ff;
+    font-weight: bold;
+    border-radius: 5px;
+    height: 5vh;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#btn-signup a{
+    text-decoration: none;
+    color: #1c1c50;
+    transition: 0.5s ease;
+}
+#btn-signup a:hover{
+    background-color: #1c1c50;
+    color: #fff;
+}
+#btn-signup:hover{
+    background-color: #1c1c50;
+    color: #fff;
+}
+.home-secstion{
+    width: 100%;
+    height: 93vh;
+    background-color: #a9a9a926;
+}
+#navbar{
+    background-color: #1c1c50;
+    font-size: 16px;
+    font-family: sans-serif;
+}
+#navbar .nav-link {
+    color: #fff;
+    font-weight: bold;
+    margin-left: 5px;
+    transition: 0.5s ease;
+}
+
+#navbar .nav-link:hover{
+    color: #fff;
+    border-radius: 5px;
+}
+.dropdown li a{
+    color: #fff;
+}
+#search-btn{
+    color: #fff;
+    border: 1px solid white;
+}
+#search-btn:hover{
+    background-color: #1c1c50;
+}
+.home{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    position: relative;
+    z-index: 0;
+}
+.home .img{
+    flex: 1 1 400px; 
+}
+.home .img img{
+    width: 100%;
+}
+.home .contennt{
+    flex: 1 1 400px;
+    margin-top: 30px;
+}
+.contennt h3{
+    margin-left: 70px;
+    font-size: 50px;
+    text-shadow: 1px 1px 1px black;
+    color: #1c1c50;
+    font-weight: bold;
+}
+.contennt h3 span{
+    font-size: 40px;
+}
+.contennt p{
+    margin-left: 70px;
+    color: #1c1c50;
+}
+.contennt #shopnow{
+    margin-left: 70px;
+    width: 200px;
+    height: 38px;
+    border: 2px solid #1c1c50;
+    font-weight: bold;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+.contennt #shopnow:hover{
+    background-color: #1c1c50;
+    color: #fff;
+}
+#top-cards{
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+#top-cards .card img{
+    height: 60vh;
+}
+#top-cards h5{
+    color: #1c1c50;
+    font-weight: bold;
+}
+#top-cards button{
+    width: 150px;
+    height: 33px;
+    font-weight: bold;
+    letter-spacing: 3px;
+    background: transparent;
+    color: #1c1c50;
+    border: 2px solid #1c1c50;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#top-cards button:hover{
+    background-color: #1c1c50;
+    color: #fff;
+}
+.baneer{
+    width: 100%;
+    height: 50vh;
+    margin-top: 50px;
+    background-image: linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(./banner.png);
+}
+.baneer .contennt{
+    text-align: center;
+    padding-top: 100px;
+}
+.baneer .contennt h1{
+    color: white;
+    text-shadow: 1px 1px 1px black;
+    letter-spacing: 3px;
+}
+.baneer .contennt p{
+    color: #fff;
+    text-shadow: 1px 1px 1px black;
+    letter-spacing: 3px;
+}
+#banner-btn button{
+    width: 150px;
+    height: 38px;
+    background: transparent;
+    color: #fff;
+    border: 2px solid white;
+    transition: 0.5s ease;
+    cursor: pointer;
+}
+#banner-btn button:hover{
+    background-color: goldenrod;
+    border: none;
+}
+#product-card{
+    margin-top: 100px;
+    font-family: sans-serif;
+}
+#product-card .card{
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+}
+#product-card h1{
+    margin-top: 30px;
+    color: #1c1c50;
+    text-shadow: 0px 1px 1px black;
+}
+#product-card h3{
+    letter-spacing: 3px;
+    text-shadow: 1px 1px 1px black;
+    font-weight: bold;
+    color: #1c1c50;
+}
+#product-card h5 span{
+    float: right;
+    color: #1c1c50;
+    cursor: unset;
+}
+#product-card .card  img{
+    width: 100%;
+    height: 85vh;  
+}
+#viewmorebtn{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    text-decoration: none;
+    margin-top: 30px;
+    width: 200px;
+    height: 32px;
+    color: #1c1c50;
+    letter-spacing: 5px;
+    font-weight: bold;
+    background: transparent;
+    border: 2px solid #1c1c50;
+    transition: 0.5s ease;
+}
+#viewmorebtn:hover{
+    background-color: #1c1c50;
+    color: #fff;
+}
+#offer{
+    margin-top: 50px;
+
+}
+#offer i{
+    font-size: 60px;
+    color: #1c1c50;
+}
+#footer{
+    padding: 0 0 30px 0; 
+    color: #fff;
+    font-size: 14px;
+    background: #1c1c50;
+    font-family: sans-serif;
+}
+#footer .footer-top{
+    padding: 60px 0 30px;
+    background: #1c1c50;
+    color: #fff;
+}
+#footer .footer-top .footer-contennt h3{
+    color: #fff;
+    text-shadow: 1px 1px 1px black;
+}
+#footer .footer-top .footer-contennt h4{
+    font-size: 22px;
+    margin: 0 0 300px 0;
+    padding: 2px 0 2px 0;
+    line-height: 1;
+    font-weight: 700;
+}
+#footer .footer-top .footer-contennt p{
+    font-size: 14px;
+    margin: 0;
+    line-height: 1;
+    font-weight: 700;
+    color: #fff;
+}
+#footer .footer-top .footer-links{
+    margin-bottom: 30px;
+    
+}
+#footer .footer-top .footer-links ul{
+    list-style: none;
+    padding: 0;
+    margin: 0; 
+}
+
+#footer .footer-top .footer-links ul li{
+    padding-right: 10px 0;
+    display: flex;
+    align-items: center;
+}
+#footer .footer-top .footer-links ul li:first-child{
+    padding: 0;
+}
+#footer .footer-top .footer-links ul li a{
+    color: #fff;
+    line-height: 2;
+}
+#footer .footer-top .social-links a i{
+    font-size: 15px;
+    display: inline-block;
+    color: #fff;
+    line-height: 1;
+    padding-right: 4px;
+    border-radius: 50px;
+    text-align: center;
+    width: 36px;
+    height: 36px;
+    transition: 0.5s ease;
+}
+#footer .copyright{
+    text-align: center;
+    float: left;
+}
+#footer .credits{
+    float: right;
+    text-align: center; 
+}
+#footer .credits a{
+   color: #fff;
+   text-decoration: none; 
+}
+.footer-contennt strong{
+    display: flex;
+}
+.footer-contennt i{
+    margin: 5px;
+}
+html{
+    scroll-behavior: smooth;
+}
+.arrow{
+    position: fixed;
+    background-color: #1c1c50;
+    border-radius: 50px;
+    height: 50px;
+    bottom: 40px;
+    right: 50px;
+    text-decoration: none;
+    align-items: center;
+    line-height: 50px;
+}
+/* this login form css work  */
+.login{
+    width: 50%;
+    margin: 20px;
+    font-family: sans-serif;
+}
+#side1{
+    background-color: #1c1c50;
+    height: 70vh;
+    border-radius: 5px;
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+}
+#side1 h3{
+    color: #fff;
+    font-weight: bold;
+    text-shadow: 1px 1px 1px black;
+    margin-top: 200px;
+    align-items: center;
+    text-align: center;
+}
+#side1 p{
+    color: #fff;
+    font-weight: bold;
+    align-items: center;
+    text-align: center;
+}
+#btn{
+    align-items: center;
+    text-align: center;
+    border: 2px solid #fff;
+    border-radius: 10px;
+}
+#btn a{
+    text-decoration: none;
+    color: #fff;
+}
+#slide2{
+    background-color: #fff;
+    border-radius: 5px;
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+    align-items: center;
+    text-align: center;
+}
+#slide2 h3{
+    margin-top: 50px;
+    color: #1c1c50;
+    font-weight: bold;
+}
+#slide2 .input{
+    margin-top: 32px;
+}
+#slide2 input{
+    width: 500px;
+    height: 36px;
+    align-items: center;
+    margin-top: 20px;
+}
+#slide2 p{
+    margin-top: 20px;
+    cursor: pointer;
+}
+#slide2 .icons i{
+    margin-left: 10px;
+    cursor: pointer;
+}
+#login{
+    margin-top: 10px;
+}
+#login button{
+    width: 200px;
+    height: 32px;
+    color: white;
+    background-color: #1c1c50;
+    border: none;
+    font-weight: bold;
+}
+#about{
+    margin-top: 50px;
+}
+#about h1{
+    text-align: center;
+    font-weight: bold;
+    color: #1c1c50;
+}
+#contect{
+    margin-top: 50px;
+}
+#contect h1{
+    color: #1c1c50;
+    text-shadow: 0px 0px 0px black;
+}
+#contect .card{
+    height: 80px;
+    margin-top: 20px;
+    box-shadow: rgba(100,100,111,0.2) 0px 7px 29px 0px;
+}
+
+#contect .card i{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 15px;
+    color: #1c1c50;
+    font-weight: bold;
+    letter-spacing: 3px;
+}
+
+#contect .card h6{
+    margin-left: 10px;
+    margin-top: 10px;
+    letter-spacing: 3px;
+    font-weight: bold;
+    color: #1c1c50;
+}
+#messagebtn{
+    margin-top: 30px;
+    width: 200px;
+    height: 33px;
+    background: transparent;
+    border: 2px solid #1c1c50;
+    color: #1c1c50;
+    font-weight: bold;
+    letter-spacing: 3px;
+    transition: 0.5s ease;
+}
+#messagebtn button:hover{
+    background-color: #1c1c50;
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* media query in this site   */
+@media screen and (max-width:500px){
+    .top-icons{
+        margin-left: 30px;
+    }
+    .top-icons i{
+        font-size: 15px;
+    }
+    .others-links i{
+        font-size: 15px;
+    }
+    #btn-login{
+        width: 70px;
+        height: 5vh;
+    }
+    #btn-signup{
+        width: 70px;
+        height: 5vh;
+    }
+}
+
+@media screen and (max-width:350px){
+    .top-icons{
+        margin-left: 10px;
+    }
+    .top-icons i{
+        font-size: 10px;
+    }
+    .others-links{
+        margin-right: 10px;
+    }
+    .others-links i{
+        font-size: 10px;
+    }
+    #btn-login{
+        width: 50px;
+        height: 5vh;
+        font-size: 13px;
+    }
+    #btn-signup{
+        width: 60px;
+        height: 5vh;
+        font-size: 13px;
+    }
+}
+
+@media screen and (max-width:350px){
+    .top-icons{
+        margin-left: 5ch;
+    }
+    .top-icons i{
+        font-size: 12px;
+    }
+    .others-links{
+        margin-right: 10px;
+    }
+    .others-links i{
+        font-size: 12px;
+    }
+    #btn-login{
+        width: 40px;
+        height: 5vh;
+        font-size: 10px;
+    }
+    #btn-signup{
+        width: 50px;
+        height: 5vh;
+        font-size: 10px;
+    }
+}
+
+@media screen and (max-width:800px){
+    .contennt h3{
+        margin-left: 50px;
+        font-size: 40px;
+    }
+    .contennt p{
+        margin-left: 50px;
+    }
+    .contennt #shopnow{
+        margin-left: 50px;
+    }  
+}
+@media screen and (max-width:570px){
+    .contennt h3{
+        margin-left: 20px;
+        /* font-size: 40px;  */
+    }
+    .contennt p{
+        margin-left: 20px;
+    }
+    .contennt #shopnow{
+        margin-left: 20px;
+    }  
+}
+@media screen and (max-width:799px){
+    .home-secstion{
+        height: 150vh;
+    }
+
+}
+@media screen and (max-width:550px){
+    .home-secstion{
+        height: 100vh;
+    }
+
+}
+@media screen and (max-width:992px){
+    #slide2 input{
+        width: 300px;
+    }
+
+}
+@media screen and (max-width:330px){
+    #slide2 input{
+        width: 200px;
+    }
+
+}
